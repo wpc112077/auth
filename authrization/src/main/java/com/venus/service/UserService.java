@@ -1,6 +1,5 @@
 package com.venus.service;
 
-import com.venus.bean.Role;
 import com.venus.bean.User;
 
 import java.util.Set;

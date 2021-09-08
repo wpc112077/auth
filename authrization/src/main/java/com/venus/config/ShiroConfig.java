@@ -23,7 +23,7 @@ public class ShiroConfig {
     }
 
     @Bean
-    public SecurityManager getSecurityManager() {
+    public SecurityManager securityManager() {
         // 将自定义 Realm 加进来
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager(myAuthRealm());
         logger.info("====securityManager注册完成====");

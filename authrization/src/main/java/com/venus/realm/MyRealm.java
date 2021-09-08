@@ -14,7 +14,6 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
-
 @Component
 public class MyRealm extends AuthorizingRealm {
 
